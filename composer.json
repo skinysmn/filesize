@@ -1,0 +1,22 @@
+{
+    "name": "levin/filesize",
+    "description": " ",
+    "type": "bolt-extension",
+    "require": {
+        "bolt/bolt": ">=2.0.0,<3.0.0"
+    },
+    "authors": [
+        {
+            "name": "Oleg Levin",
+            "email": "oleg_levin@mail.ru"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "init.php"
+        ],
+        "psr-4": {
+            "Bolt\\Extension\\levin\\filesize\\":  ""
+        }
+    }
+}
