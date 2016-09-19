@@ -1,22 +1,24 @@
 {
-    "name": "levin/filesize",
-    "description": " ",
+      "name": "bolt/bolt-extension-test-versions",
+    "description": "Testing",
     "type": "bolt-extension",
-    "require": {
-        "bolt/bolt": ">=2.0.0"
-    },
+    "keywords": [
+    ],
     "authors": [
         {
-            "name": "Oleg Levin",
-            "email": "oleg_levin@mail.ru"
+            "name": "Gawain Lynch",
+            "email": "gawain.lynch@gmail.com"
         }
     ],
+    "require": {
+        "bolt/bolt": "^4.0"
+    },
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
-        "files": [
-            "init.php"
-        ],
         "psr-4": {
-            "Bolt\\Extension\\levin\\filesize\\":  ""
+            "Bolt\\Extension\\levin\\filesize\\": ""
         }
     }
 }
