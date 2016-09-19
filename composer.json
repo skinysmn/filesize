@@ -1,13 +1,13 @@
 {
-      "name": "bolt/bolt-extension-test-versions",
-    "description": "Testing",
+    "name": "levin/filesize",
+    "description": "file size showing",
     "type": "bolt-extension",
     "keywords": [
     ],
     "authors": [
         {
-            "name": "Gawain Lynch",
-            "email": "gawain.lynch@gmail.com"
+            "name": "Oleg Levin",
+            "email": "oleg_levin@mail.ru"
         }
     ],
     "require": {
