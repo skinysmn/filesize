@@ -4,21 +4,29 @@
     "type": "bolt-extension",
     "keywords": [
     ],
+    "require": {
+        "bolt/bolt": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.7"
+    },
     "authors": [
         {
             "name": "Oleg Levin",
             "email": "oleg_levin@mail.ru"
         }
     ],
-    "require": {
-        "bolt/bolt": "^2.0"
-    },
-    "license": "MIT",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Bolt\\Extension\\levin\\filesize\\": ""
+            "Bolt\\Extension\\levin\\filesize\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bolt\\Extension\\levin\\filesize\\Tests\\": "tests",
+            "Bolt\\Tests\\": "vendor/bolt/bolt/tests/phpunit/unit/"
         }
     }
 }
