@@ -1,4 +1,4 @@
 # filesize
-is an extention to show filesize from /files folder
+is an extention to show filesize
 usage:
-in your template {{ filesize(filename) }}
+in your template {{ filesize('filepath') }}
