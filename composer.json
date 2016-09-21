@@ -28,5 +28,9 @@
             "Bolt\\Extension\\levin\\filesize\\Tests\\": "tests",
             "Bolt\\Tests\\": "vendor/bolt/bolt/tests/phpunit/unit/"
         }
+    },
+        "extra": {
+        "bolt-icon": "",
+        "bolt-class": "Bolt\\Extension\\levin\\filesize\\filesizeExtension"
     }
 }
