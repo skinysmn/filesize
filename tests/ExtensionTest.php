@@ -1,9 +1,9 @@
 <?php
 
-namespace Bolt\Extension\YourName\ExtensionName\Tests;
+namespace Bolt\Extension\levin\filesize\Tests;
 
 use Bolt\Tests\BoltUnitTest;
-use Bolt\Extension\YourName\ExtensionName\Extension;
+use Bolt\Extension\levin\filesize\Extension;
 
 /**
  * Ensure that the ExtensionName extension loads correctly.
@@ -17,7 +17,7 @@ class ExtensionTest extends BoltUnitTest
         $extension = new Extension($app);
         $app['extensions']->register( $extension );
         $name = $extension->getName();
-        $this->assertSame($name, 'ExtensionName');
+        $this->assertSame($name, 'filesize');
         $this->assertSame($extension, $app["extensions.$name"]);
     }
 }
