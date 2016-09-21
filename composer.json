@@ -16,8 +16,8 @@
             "email": "oleg_levin@mail.ru"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable": false,
+    "minimum-stability": "test",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "Bolt\\Extension\\levin\\filesize\\": "src"
