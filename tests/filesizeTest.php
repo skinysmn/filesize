@@ -9,15 +9,15 @@ use Bolt\Extension\levin\filesize\Extension;
  * Ensure that the ExtensionName extension loads correctly.
  *
  */
-class ExtensionTest extends BoltUnitTest
+class filesizeTest extends BoltUnitTest
 {
-    public function testExtensionRegister()
+    public function testExtensionLoads()
     {
         $app = $this->getApp();
         $extension = new Extension($app);
         $app['extensions']->register( $extension );
         $name = $extension->getName();
-        $this->assertSame($name, 'filesize');
+        $this->assertSame($name, 'colourpicker');
         $this->assertSame($extension, $app["extensions.$name"]);
     }
 }
