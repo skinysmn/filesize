@@ -15,8 +15,8 @@ class filesizeExtension extends SimpleExtension
     public function TwigFilesize($file)
     {
 
-	if (file_exists($_SERVER['DOCUMENT_ROOT']."/files/".$file)){
-	    $bytes = filesize ($_SERVER['DOCUMENT_ROOT']."/files/".$file);
+	if (file_exists($_SERVER['DOCUMENT_ROOT'].$file)){
+	    $bytes = filesize ($_SERVER['DOCUMENT_ROOT'].$file);
 	    $units = array('b', 'Kb', 'Mb', 'Gb', 'Tb');
 	    $bytes = max($bytes, 0);
 	    $pow = floor(($bytes?log($bytes):0)/log(1024));
